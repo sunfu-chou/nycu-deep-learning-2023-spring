@@ -27,7 +27,9 @@ RUN pip3 install \
         torch \
         torchvision \
         torchaudio \
-        matplotlib
+        matplotlib \
+        jupyterlab \
+        black
 
 RUN useradd -rm -d /home/${USER} -s /bin/bash -g root -G sudo -u 1000 ${USER}
 RUN echo "${USER} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
