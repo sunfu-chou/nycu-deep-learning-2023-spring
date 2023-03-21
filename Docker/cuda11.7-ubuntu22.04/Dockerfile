@@ -12,6 +12,7 @@ RUN apt-get update && \
         less \
         unzip \
         build-essential \
+        gdb \
         ca-certificates \
         ccache \
         cmake \
