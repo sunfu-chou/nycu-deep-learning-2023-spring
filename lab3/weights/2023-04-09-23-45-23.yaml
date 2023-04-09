@@ -1,0 +1,15 @@
+accuracy: 0.8898148148148148
+activation: leaky_relu
+filename: !!python/object/apply:pathlib.PosixPath
+- /
+- home
+- user
+- nycu-deep-learning-2023-spring
+- lab3
+- weights
+- 2023-04-09-23-45-23.yaml
+lr: 0.0001
+model: EEGNet
+optimizer: Adam
+weight_decay: 0.1
+

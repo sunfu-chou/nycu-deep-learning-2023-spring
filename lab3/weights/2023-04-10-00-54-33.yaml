@@ -1,0 +1,14 @@
+accuracy: 0.8361111111111111
+activation: leaky_relu
+filename: !!python/object/apply:pathlib.PosixPath
+- /
+- home
+- user
+- nycu-deep-learning-2023-spring
+- lab3
+- weights
+- 2023-04-10-00-54-33.yaml
+lr: 0.0001
+model: deepconv
+optimizer: Adam
+weight_decay: 0.1
