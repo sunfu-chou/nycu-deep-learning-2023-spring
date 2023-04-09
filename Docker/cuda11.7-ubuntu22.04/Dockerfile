@@ -30,7 +30,9 @@ RUN pip3 install \
         torchaudio \
         matplotlib \
         jupyterlab \
-        black
+        black \
+        tk \
+        pandas
 
 RUN useradd -rm -d /home/${USER} -s /bin/bash -g root -G sudo -u 1000 ${USER}
 RUN echo "${USER} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
