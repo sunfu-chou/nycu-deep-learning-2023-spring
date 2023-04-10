@@ -109,6 +109,8 @@ def main():
         print(
             f"{bcolors.BCOLORS.WARNING}testing accuracy: {testing_accuracy*100: .5f} %{bcolors.BCOLORS.ENDC}\n"
         )
+    else:
+        raise Exception(f"Invalid type: {args.type}")
 
     hyper_params.save()
     log.write()
