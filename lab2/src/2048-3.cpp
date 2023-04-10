@@ -1089,7 +1089,8 @@ int main(int argc, const char *argv[])
   if (!log_file.is_open())
   {
     info << "Fail to open log file!" << std::endl;
-    return 0;
+    if (argc == 1)
+      return 0;
   }
   log_file << "episode, mean, max" << std::endl;
   // train the model

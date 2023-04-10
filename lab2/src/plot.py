@@ -8,9 +8,12 @@ import matplotlib.pyplot as plt
 def main():
     lab_dir_path = Path(__file__).resolve().parent.parent
     log_dir_path = lab_dir_path / "log"
+    log_name = "2048-2023-04-05-01-40-03.log"
+    log_name = "2048-2023-04-05-01-40-07.log"
     log_name = "2048-2023-04-05-01-45-04.log"
+    # log_name = "2048-2023-04-05-01-45-04.log"
     figures_dir_path = lab_dir_path / "figures"
-    figure_name = "2048.png"
+    figure_name = "2048-3.png"
 
     if not os.path.exists(figures_dir_path):
         os.makedirs(figures_dir_path)
