@@ -21,7 +21,8 @@ RUN apt-get update && \
         libjpeg-dev \
         libpng-dev \
         python3.8 \
-        python3-pip && \
+        python3-pip \
+        python3-tk && \
     rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install \
@@ -31,7 +32,6 @@ RUN pip3 install \
         matplotlib \
         jupyterlab \
         black \
-        tk \
         pandas
 
 RUN useradd -rm -d /home/${USER} -s /bin/bash -g root -G sudo -u 1000 ${USER}
