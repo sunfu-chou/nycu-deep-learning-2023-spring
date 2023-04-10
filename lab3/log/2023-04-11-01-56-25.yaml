@@ -6,8 +6,8 @@ filename: !!python/object/apply:pathlib.PosixPath
 - nycu-deep-learning-2023-spring
 - lab3
 - log
-- 2023-04-10-01-01-37.yaml
+- 2023-04-11-01-56-25.yaml
 lr: 0.0001
-model: deepconv
+model: eegnet
 optimizer: Adam
-weight_decay: 0.5
+weight_decay: 0.0
